@@ -6,7 +6,7 @@ import "bootstrap";
 
 // Wrap every letter in a span
 
-if (location.href == "http://localhost:3000/" || location.href == "portfolio-prk.herokuapp.com") {
+if (location.href == "http://localhost:3000/" || location.href == "https://portfolio-prk.herokuapp.com/") {
     //Code here
   const textWrapper = document.querySelector('.ml3');
   textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
