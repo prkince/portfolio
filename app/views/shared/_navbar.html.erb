@@ -1,0 +1,32 @@
+<div class="navbar-fixed-left">
+  <ul>
+    <% if current_page?(root_path)%>
+      <div class="navbar-btn active">
+    <% else %>
+      <div class="navbar-btn">
+    <% end %>
+      <li><%= link_to "Home", root_path %></li>
+      </div>
+    <% if current_page?(bio_path)%>
+      <div class="navbar-btn active">
+    <% else %>
+      <div class="navbar-btn">
+    <% end %>
+      <li><%= link_to "Bio", bio_path %></li>
+      </div>
+    <% if current_page?(projects_path)%>
+      <div class="navbar-btn active">
+    <% else %>
+      <div class="navbar-btn">
+    <% end %>
+      <li><%= link_to "Projects", projects_path %></li>
+      </div>
+    <% if current_page?(contact_path)%>
+      <div class="navbar-btn active">
+    <% else %>
+      <div class="navbar-btn">
+    <% end %>
+      <li><%= link_to "Contact", contact_path %></li>
+      </div>
+  </ul>
+</div>

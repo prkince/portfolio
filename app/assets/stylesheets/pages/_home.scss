@@ -1,1 +1,26 @@
-// Specific CSS for your home-page
+.container-prk {
+  	min-height: 100vh;
+	background-image: asset-url('pierrick_background_picture_desktop.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-position-y: inherit;
+	@media (max-width: 1024px) {
+		background-image: asset-url('pierrick_background_picture_mobile.jpg');
+		background-position: center;
+		background-position-y: inherit;
+	}
+}
+
+.ml3 {
+    font-weight: 900;
+    font-size: 3.5em;
+    color: white;
+    text-align: center;
+    padding-top: 25%;
+    padding-left: 57%;
+    margin-block-start: 0em!important;
+    @media (max-width: 1024px) {
+	    padding: 100% 0% 0% 0%;
+    }
+}
