@@ -24,3 +24,15 @@
 	    padding: 100% 0% 0% 0%;
     }
 }
+
+.ml4 {
+    font-weight: 900;
+    font-size: 3.5em;
+    color: white;
+    text-align: center;
+    padding-left: 57%;
+    margin-block-start: 0em!important;
+    @media (max-width: 1024px) {
+	    padding: 0% 0% 0% 0%;
+    }
+}

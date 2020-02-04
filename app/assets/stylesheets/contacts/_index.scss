@@ -88,12 +88,13 @@
 .flash-create {
   color: white;
   font-size: 20px;
-  padding: 5% 1rem 1rem 14%;
-  @media (max-width: 1024px) {
-    padding: 16% 1rem 1rem 6%;
-  }
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 1rem 1rem 1rem;
   @media (max-width: 500px) {
-    padding: 76% 1rem 1rem 1rem;
-    font-size: 13px 
+    font-size: 13px;
+    text-align: center;
   }
 }
