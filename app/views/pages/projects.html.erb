@@ -1,0 +1,40 @@
+<div class="projects-cards">
+  <div class="container-projects-card" data-aos="fade-down" data-aos-delay="1000">
+    <%= link_to("https://shipantiques.herokuapp.com/", target: "_blank" , class: "project-link") do %>
+      <div class="description">
+        <div class="description-img"> <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1580894285/portfolio/ship_antiques_accueil_e8mydf.png", :quality=>55) %></div>
+        <div class="details">
+          <h2>Ship Antiques</h2>
+          <p>New design and front end development of the website of the company. First I have used a template to show my idea of the website, after I made the app from scratch using Ruby on Rails.</p>
+        </div>
+      </div>
+    <% end %>
+  </div>
+
+  <div class="container-projects-card" data-aos="fade-down" data-aos-delay="2000" >
+    <%= link_to("http://www.equalpath.best/", target: "_blank" , class: "project-link") do %>
+      <div class="description">
+        <div class="description-img"> <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1580894285/portfolio/equalpath_accueil_lj7ysk.png", :quality=>55) %></div>
+        <div class="details">
+          <h2>Equal path</h2>
+          <p>A platform helping you to find your dream job. Final project for Le Wagon, made in 2 weeks within 4 people. The framework uses the classic tools, with some Javascript and CSS. Technology: Ruby on Rails.</p>
+        </div>
+      </div>
+    <% end %>
+  </div>
+
+  <div class="container-projects-card" data-aos="fade-down" data-aos-delay="2800">
+    <%= link_to("https://airbnb-palm.herokuapp.com/", target: "_blank" , class: "project-link") do %>
+      <div class="description">
+        <div class="description-img"> <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1580894285/portfolio/palm_accueil_dnqhkt.png", :quality=>55) %></div>
+        <div class="details">
+          <h2>Palm</h2>
+          <p>Palm-travel website allowing you to book islands all over the world. Le Wagon school project. Creation of our first MVC. Technology: Ruby on Rails.</p>
+        </div>
+      </div>
+    <% end %>
+  </div>
+
+</div>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

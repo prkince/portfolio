@@ -15,6 +15,7 @@ gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
 gem 'mail_form'
+gem 'cloudinary', '~> 1.12.0'
 
 
 group :development do

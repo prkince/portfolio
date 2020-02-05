@@ -45,3 +45,9 @@ if (location.href == "http://localhost:3000/" || location.href == "https://portf
       delay: 1000
     });
 }
+
+AOS.init({
+  duration: 800,
+  easing: 'slide',
+  once: true
+ });
