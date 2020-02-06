@@ -4,5 +4,6 @@ Rails.application.routes.draw do
   get "bio", to: "pages#bio", as: :bio
   get "projects", to: "pages#projects", as: :projects
 
-  resources "contacts", only: [:new, :create]
+  get    "contact", to: "contacts#new", as: :contact
+  post   "contacts", to: "contacts#create"
 end
