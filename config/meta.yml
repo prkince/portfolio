@@ -1,0 +1,4 @@
+meta_product_name: "Portfolio"
+meta_title: "Pierrick Delage - Portfolio"
+meta_description: "Get to know more about me and follow my projects as a developper."
+meta_image: "https://res.cloudinary.com/dovu27lye/image/upload/v1580889158/portfolio/pierrick_background_picture_desktop_vetlsn.jpg" # should exist in `app/assets/images/`
