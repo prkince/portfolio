@@ -1,5 +1,23 @@
+.container-prk {
+    .page-projects {
+      min-height: 100vh;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-position-y: inherit;
+      background-image: url('https://res.cloudinary.com/dovu27lye/image/upload/v1580984200/portfolio/IMG_7708_sbsmia.jpg'); 
+    }
+  @media (max-width: 1024px) {
+        .page-projects {
+          background-position: center;
+        }
+  }
+}
+
 .projects-cards {
   padding-top: 1rem;
+    min-height: 100vh;
+
 }
 .project-link {
     text-decoration: none!important;
@@ -38,6 +56,8 @@
         padding-bottom: 1rem;
         border-bottom: 1px solid rgb(217, 217, 217);
         text-transform: uppercase;
+              margin-top: 0px;
+
       }  
     }
   }

@@ -1,5 +1,24 @@
+.container-prk {
+    .page-bio {
+      min-height: 100vh;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-position-y: inherit;
+      background-image: url('https://res.cloudinary.com/dovu27lye/image/upload/v1580984200/portfolio/IMG_4165_o56pkk.jpg'); 
+    }
+  @media (max-width: 1024px) {
+        .page-bio {
+          background-position: center;
+          background-image: url('https://res.cloudinary.com/dovu27lye/image/upload/v1580984200/portfolio/IMG_4165_o56pkk.jpg');
+        }
+  }
+}
+
+
 .bios-cards {
   padding-top: 1rem;
+  min-height: 100vh;
 }
 
 .container-bios-card {
@@ -35,13 +54,14 @@
         padding-bottom: 1rem;
         border-bottom: 1px solid rgb(217, 217, 217);
         text-transform: uppercase;
+        margin-top: 0px;
       }  
     }
   }
 }
 
 
-@media(max-width: 1000px) {
+@media(max-width: 1024px) {
 
   .bios-cards {
     height: 100%;

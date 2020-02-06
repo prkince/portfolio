@@ -1,42 +1,45 @@
-<div class="bios-cards">
-  <div class="container-bios-card" data-aos="fade-up" data-aos-delay="1000">
-      <div class="description">
-        <div class="description-img"> <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1580905528/portfolio/plane_mhbkz0.jpg", :quality=>55) %></div>
-        <div class="details">
-          <h2>Before</h2>
-          <p>After working in the international transport field of artwork and antiques for over 10 years, I have decided in 2019 to follow a new path I have always been attracted to, Computer Science. My carreer in Logistics in a really specific field has taught me how to acquired new skills and how to well organize my work.</p>
+<div class="page-bio">
+  <div class="bios-cards">
+    <div class="container-bios-card" data-aos="fade-up" data-aos-delay="1000">
+        <div class="description">
+          <div class="description-img"> <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1580905528/portfolio/plane_mhbkz0.jpg", :quality=>55) %></div>
+          <div class="details">
+            <h2>Before</h2>
+            <p>After working in the international transport field of artwork and antiques for over 10 years, I have decided in 2019 to follow a new path I have always been attracted to, computer science. My carreer in Logistics in a really specific field has taught me how to acquired new skills and how to well organize my work.</p>
+          </div>
         </div>
-      </div>
-  </div>
+    </div>
 
-  <div class="container-bios-card" data-aos="fade-up" data-aos-delay="2000" >
-      <div class="description">
-        <div class="description-img"> <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1580905528/portfolio/man_computer_xrzvtp.jpg", :quality=>55) %></div>
-        <div class="details">
-          <h2>Now</h2>
-          <p>During the past months, I have attended Le Wagon coding school. I am proficient in Ruby on Rails, JavaScript ES6, HTML, CSS, Bootstrap, SQL, git, GitHub and Heroku.</p>
-          <%= link_to(projects_path) do%>
-            <p style="color: #808080">I have worked as well on multiple projects.</p>
-          <% end %>
+    <div class="container-bios-card" data-aos="fade-up" data-aos-delay="2000" >
+        <div class="description">
+          <div class="description-img"> <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1580905528/portfolio/man_computer_xrzvtp.jpg", :quality=>55) %></div>
+          <div class="details">
+            <h2>Now</h2>
+            <p>During the past months, I have attended Le Wagon coding school. I am proficient in Ruby on Rails, JavaScript ES6, HTML, CSS, Bootstrap, SQL, git, GitHub and Heroku.</p>
+            <%= link_to(projects_path) do%>
+              <p style="color: #808080">I have since worked on multiple projects including Ship Antiques website.</p>
+            <% end %>
+          </div>
         </div>
-      </div>
-  </div>
+    </div>
 
-  <div class="container-bios-card" data-aos="fade-up" data-aos-delay="2800">
-      <div class="description">
-        <div class="description-img"> <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1580905528/portfolio/web_dev_gi7rim.jpg", :quality=>55)%></div>
-        <div class="details">
-	        <h2>More</h2>
-          <p style="margin: 0 0 4px 0;">Confident communicator, good rapport with clients and suppliers in a very demanding international environment. Keen to learn and improve from the people I work with. Excellent presentation and communication skills.</p>
-	        <%= link_to("https://github.com/prkince", target: "_blank") do%>
-	         <p style="margin: 0 0 0 0; color: #808080">You can find me on Github to follow coding activity.</p>
-	        <% end %>
-	       	<%= link_to("https://github.com/prkince/resume_prk/blob/master/resume_prk.pdf", target: "_blank") do%>
-		      	<p style="margin: 0 0 0 0; color: #808080">You can check my resume here.</p>
-	        <% end %>
+    <div class="container-bios-card" data-aos="fade-up" data-aos-delay="2800">
+        <div class="description">
+          <div class="description-img"> <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1580905528/portfolio/web_dev_gi7rim.jpg", :quality=>55)%></div>
+          <div class="details">
+  	        <h2>More</h2>
+            <p style="margin: 0 0 4px 0;">I am a confident communicator, I have a good rapport with clients and suppliers in a very demanding international environment. I am keen to learn and improve from the people I work with. And I love to travel and discover new countries and cultures.</p>
+  	        <%= link_to("https://github.com/prkince", target: "_blank") do%>
+  	         <p style="margin: 0 0 0 0; color: #808080">You can find me on Github to follow coding activity.</p>
+  	        <% end %>
+  	       	<%= link_to("https://github.com/prkince/resume_prk/blob/master/resume_prk.pdf", target: "_blank") do%>
+  		      	<p style="margin: 0 0 0 0; color: #808080">You can check my resume here.</p>
+  	        <% end %>
 
+          </div>
         </div>
-      </div>
+    </div>
+
   </div>
 
 </div>

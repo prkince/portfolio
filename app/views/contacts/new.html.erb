@@ -1,20 +1,21 @@
+<div class="page-contact">
+  <div class="contacts-container" align="center" data-aos="zoom-in" data-aos-delay="800">
 
-<div class="contacts-container" align="center" data-aos="zoom-in" data-aos-delay="800">
+    <%= simple_form_for @contact do |f| %>
+      <%= f.label :contact, label: "Contact Me"  %>
+      <%= f.input :name, :required => true, label: "Name:"  %>
+      <%= f.input :email, :required => true, label: "Email:" %>
+      <%= f.input :subject, :required => true, label: "Subject of the message:" %>
+      <%= f.input :content, :as => :text, :required => true, label: "Content of the message:" %>
+      <div class= "hidden">
+        <%= f.input :nickname, :hint => 'Leave this field blank!' %>
+      </div>
+      <div>
+        <%= f.button :submit, 'Send', :class=> "btn btn-outline-secondary" %>
+      </div>
+    <% end %>
+  </div>
 
-  <%= simple_form_for @contact do |f| %>
-    <%= f.label :contact, label: "Contact Me"  %>
-    <%= f.input :name, :required => true, label: "Name:"  %>
-    <%= f.input :email, :required => true, label: "Email:" %>
-    <%= f.input :subject, :required => true, label: "Subject of the message:" %>
-    <%= f.input :content, :as => :text, :required => true, label: "Content of the message:" %>
-    <div class= "hidden">
-      <%= f.input :nickname, :hint => 'Leave this field blank!' %>
-    </div>
-    <div>
-      <%= f.button :submit, 'Send', :class=> "btn btn-outline-secondary" %>
-    </div>
-  <% end %>
 </div>
-
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
