@@ -60,8 +60,16 @@
         text-transform: uppercase;
         margin-top: 0px;
         font-size: 25px;
+      }
+      a:hover {
+            font-weight: bolder;
+    color:#696969;
+    text-decoration: none
       }  
     }
+  }
+  .description:hover {
+    opacity: 0.9;
   }
 }
 
