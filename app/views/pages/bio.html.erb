@@ -5,7 +5,9 @@
           <div class="description-img"> <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1580905528/portfolio/plane_mhbkz0.jpg", :quality=>55) %></div>
           <div class="details">
             <h2>Before</h2>
-            <p>After working in the international transport field of artwork and antiques for over 10 years, I have decided in 2019 to follow a path I have always been attracted to, computer science. My carreer in Logistics in a really specific field has taught me how to an excel in a competitive market and how to well organize my work.</p>
+            <p>After working in the international transport field of artwork and antiques for over 10 years, I have decided in 2019 to follow a path I have always been attracted to, computer science. My carreer in Logistics in a really specific field has taught me how to an excel in a competitive market and how to well organize my work. 
+            </p>
+            <%= link_to "Would you like to know more?", "#", id: "popup-prkLink" %>
           </div>
         </div>
     </div>
@@ -15,7 +17,7 @@
           <div class="description-img"> <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1580905528/portfolio/man_computer_xrzvtp.jpg", :quality=>55) %></div>
           <div class="details">
             <h2>Now</h2>
-            <p>During the past months, I have graduated Le Wagon coding school. I am proficient in Ruby on Rails, JavaScript ES6, HTML, CSS, Bootstrap, SQL, git, GitHub and Heroku.</p>
+            <p>During the past months, I have graduated Le Wagon coding school. I am proficient in Ruby on Rails, JavaScript ES6, HTML, CSS, Bootstrap, SQL, git, GitHub and Heroku. I truly appreciated how I have learned so much things in a short time. Also, working everyday with a different pairing buddy made me study more efficiently and quickly (besides I made some very good friends as well). </p>
             <%= link_to(projects_path) do%>
               <p style="color: #808080">I have since worked on multiple projects including Ship Antiques website.</p>
             <% end %>
@@ -28,7 +30,7 @@
           <div class="description-img"> <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1580905528/portfolio/web_dev_gi7rim.jpg", :quality=>55)%></div>
           <div class="details">
   	        <h2>More</h2>
-            <p style="margin: 0 0 4px 0;">I am a confident communicator, I have a good rapport with clients and suppliers in a very demanding international environment. I am keen to learn and improve from the people I work with. And I love to travel and discover new countries and cultures.</p>
+            <p style="margin: 0 0 4px 0;">I am a confident communicator, I have a good rapport with clients and suppliers in a very demanding international environment. I am keen to learn and improve from the people I work with. And I love to travel and discover new countries and cultures. When I am not abroad, you may find me gardening, I am loving it, looking after plants needs patience, one of my strongest quality. </p>
   	        <%= link_to("https://github.com/prkince", target: "_blank") do%>
   	         <p style="margin: 0 0 0 0; color: #808080">You can find me on Github to follow coding activity.</p>
   	        <% end %>
@@ -39,6 +41,29 @@
           </div>
         </div>
     </div>
+
+  </div>
+
+  <!-- modal popup-prk content begin -->
+
+  <div id="popup-prkBox" class="popup-prk">
+    <div class="popup-prk-content">
+        <div class="popup-prk-head">
+            <span class="close">x</span>
+            <h2> Personal Achievement</h2>
+        </div>
+        <div class="popup-prk-main">
+            <p> <strong> Context:</strong> A few years back, I have noticed incessant issues with some of our partners. We were facing inneficient and unreliable work, irregularities in the services offered, we were loosing market shares and clients.
+            </p>
+            <p> Location was in America, one of our main market, by then we needed to establish new partnership, setup a powerful working supplier relation and improve our process of communication.
+            </p>
+            <p> <strong> Solution:</strong> To achieve that, I focused on our main markets locally (New York and Los Angeles areas), and carefully contact long time partners and new ones. After budget validation and setting up all meetings, it was time for me to travel. Beeing there for a few days was incredibly rewarding, doing that I have been able to secure a market which was going down and came back with new clients and suppliers. 
+            </p> 
+            <p> <strong> Attainment:</strong> I know now for a fact that in order to build strong and trustable relationships, we need to extend our network, being curious and never be afraid to go further.</p>
+        </div>
+    </div>
+
+  <!-- modal popup-prk content end -->
 
   </div>
 

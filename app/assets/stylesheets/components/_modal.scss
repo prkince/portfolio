@@ -1,0 +1,72 @@
+/* popup-prk box style */
+.popup-prk {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 15%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    @media (max-width: 500px) {
+        padding-top: 25%;
+    }
+}
+
+#popup-prkLink {
+    color: #808080;
+    margin: 0 0 0 0;
+}
+.popup-prk-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+    width: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    opacity: 0.9;
+    @media (max-width: 500px) {
+        width: 90%;
+    }
+}
+.popup-prk-head {
+    padding: 2px 16px;
+    background: white;
+    opacity: 0.8;
+    text-align: center;
+}
+.popup-prk-main {
+    padding: 2px 16px;
+    text-align: justify;
+}
+
+/* add animation effects */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* close button style */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}

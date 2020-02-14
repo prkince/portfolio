@@ -24,7 +24,7 @@
 }
 
 .container-projects-card {
-  padding: 1rem 5% 1rem 20%;
+  padding: 1rem 2% 1rem 16%;
   height: 200px;
   .description {
     background: white;
@@ -63,7 +63,7 @@
 }
 
 
-@media(max-width: 1000px) {
+@media(max-width: 1024px) {
 
   .projects-cards {
     height: 100%;

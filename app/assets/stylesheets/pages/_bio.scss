@@ -19,10 +19,14 @@
 .bios-cards {
   padding-top: 1rem;
   min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-bottom: 90px;
 }
 
 .container-bios-card {
-  padding: 1rem 5% 1rem 20%;
+  padding: 0.5rem 2% 0.5rem 16%;
   height: 200px;
   .description {
     background: white;
@@ -31,7 +35,6 @@
     display: flex;
     justify-content: space-between;
     height: auto;
-    margin: 1rem 1rem 1rem 1rem;
     padding: 1rem 1rem 1rem 1rem;
     .description-img {
       margin: auto;
@@ -44,17 +47,19 @@
       width: 70%;
       flex-direction: column;
       display: grid;
-      margin: 1rem 2rem 1rem 2rem;
+      margin: 0.5rem 2rem 3px 2rem;
       p {
           text-align: justify;
-          color: #778899
+          color: #778899;
+          margin: 0 0 3px;
       }
       h2 {
         color:#696969;
-        padding-bottom: 1rem;
+        padding-bottom: 3px;
         border-bottom: 1px solid rgb(217, 217, 217);
         text-transform: uppercase;
         margin-top: 0px;
+        font-size: 25px;
       }  
     }
   }
