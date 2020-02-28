@@ -15,8 +15,13 @@
   }
 }
 
+.contacts-links {
+  visibility: hidden
+}
+
 @media (max-width: 768px) {
   .contacts-links {
+    visibility: visible;
     display: flex;
     align-items: center;
     position:fixed;

@@ -1,6 +1,6 @@
 // Wrap every letter in a span
 
-if (location.href == "http://localhost:3000/" || location.href == "https://portfolio-prk.herokuapp.com/" || location.href == "https://www.delage.dev/" ) {
+if (document.querySelector(".page-home")) {
     //Code here
   const textWrapper = document.querySelector('.ml3');
   textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
