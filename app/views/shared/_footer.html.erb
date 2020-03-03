@@ -1,5 +1,16 @@
 <div class="footer">
   <div class="footer-links">
+
+    <% if current_page?(accueil_path) || current_page?(projets_path) || current_page?(biographie_path) %>
+      <%= link_to root_path do %>
+        <i class="fas fa-flag-usa" style="color: #ff6f6f"></i>
+      <% end %>
+    <% else %>
+      <%= link_to accueil_path do %>
+        <i class="far fa-flag" style="color: #ADD8E6"></i>
+      <% end %>    
+    <% end %>
+
     <a href="https://github.com/prkince" target="_blank"><i class="fab fa-github"></i></a>
     <a href="https://www.linkedin.com/in/pierrick-delage/" target="_blank"><i class="fab fa-linkedin"></i></a>
     <a href="https://github.com/prkince/resume_prk/blob/master/resume_prk.pdf" target="_blank"><i class="far fa-file"></i></a>

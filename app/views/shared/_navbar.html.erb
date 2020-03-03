@@ -1,32 +1,69 @@
-<div class="navbar-fixed-left">
-  <ul>
-    <% if current_page?(root_path)%>
-      <div class="navbar-btn active">
-    <% else %>
-      <div class="navbar-btn">
-    <% end %>
-      <li><%= link_to_home_page %></li>
-      </div>
-    <% if current_page?(bio_path)%>
-      <div class="navbar-btn active">
-    <% else %>
-      <div class="navbar-btn">
-    <% end %>
-      <li><%= link_to_bio_page %></li>
-      </div>
-    <% if current_page?(projects_path)%>
-      <div class="navbar-btn active">
-    <% else %>
-      <div class="navbar-btn">
-    <% end %>
-      <li><%= link_to_project_page %></li>
-      </div>
-    <% if current_page?(contact_path)%>
-      <div class="navbar-btn active">
-    <% else %>
-      <div class="navbar-btn">
-    <% end %>
-      <li><%= link_to_contact_page %></li>
-      </div>
-  </ul>
-</div>
+
+<% if current_page?(accueil_path) || current_page?(biographie_path)|| current_page?(projets_path) %>
+  <div class="navbar-fixed-left">
+    <ul>
+      <% if current_page?(accueil_path)%>
+        <div class="navbar-btn active">
+      <% else %>
+        <div class="navbar-btn">
+      <% end %>
+        <li><%= link_to('Accueil', accueil_path) %></li>
+        </div>
+      <% if current_page?(biographie_path)%>
+        <div class="navbar-btn active">
+      <% else %>
+        <div class="navbar-btn">
+      <% end %>
+        <li><%= link_to('Bio', biographie_path) %></li>
+        </div>
+      <% if current_page?(projets_path)%>
+        <div class="navbar-btn active">
+      <% else %>
+        <div class="navbar-btn">
+      <% end %>
+        <li><%= link_to('Projets', projets_path) %></li>
+        </div>
+      <% if current_page?(contact_path)%>
+        <div class="navbar-btn active">
+      <% else %>
+        <div class="navbar-btn">
+      <% end %>
+        <li><%= link_to_contact_page %></li>
+        </div>
+    </ul>
+  </div>
+
+<% else %>
+  <div class="navbar-fixed-left">
+    <ul>
+      <% if current_page?(root_path)%>
+        <div class="navbar-btn active">
+      <% else %>
+        <div class="navbar-btn">
+      <% end %>
+        <li><%= link_to_home_page %></li>
+        </div>
+      <% if current_page?(bio_path)%>
+        <div class="navbar-btn active">
+      <% else %>
+        <div class="navbar-btn">
+      <% end %>
+        <li><%= link_to_bio_page %></li>
+        </div>
+      <% if current_page?(projects_path)%>
+        <div class="navbar-btn active">
+      <% else %>
+        <div class="navbar-btn">
+      <% end %>
+        <li><%= link_to_project_page %></li>
+        </div>
+      <% if current_page?(contact_path)%>
+        <div class="navbar-btn active">
+      <% else %>
+        <div class="navbar-btn">
+      <% end %>
+        <li><%= link_to_contact_page %></li>
+        </div>
+    </ul>
+  </div>
+<% end %>
