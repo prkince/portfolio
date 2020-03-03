@@ -1,5 +1,5 @@
 
-if (location.href == "http://localhost:3000/bio" || location.href == "https://portfolio-prk.herokuapp.com/bio" || location.href == "https://www.delage.dev/bio" ) {
+const modalBio = () => {
 
 	// get the popup
 	var popupPrk = document.getElementById('popup-prkBox');
@@ -26,4 +26,7 @@ if (location.href == "http://localhost:3000/bio" || location.href == "https://po
 	        popupPrk.style.display = "none";
 	    }
 	}
+
 }
+
+export { modalBio }

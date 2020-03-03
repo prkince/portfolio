@@ -1,7 +1,6 @@
 // Wrap every letter in a span
 
-if (document.querySelector(".page-home")) {
-    //Code here
+const homeAnimation = () => {
   const textWrapper = document.querySelector('.ml3');
   textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
@@ -38,4 +37,7 @@ if (document.querySelector(".page-home")) {
       easing: "easeInOutQuad",
       delay: 1000
     });
+
 }
+
+export { homeAnimation }

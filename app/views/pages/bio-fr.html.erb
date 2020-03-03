@@ -1,0 +1,71 @@
+<div class="page-bio">
+  <div class="bios-cards">
+    <div class="container-bios-card" data-aos="fade-up" data-aos-delay="500">
+        <div class="description">
+          <div class="description-img"> <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1580905528/portfolio/plane_mhbkz0.jpg", :quality=>55) %></div>
+          <div class="details">
+            <h2>Avant</h2>
+            <p>Après une dizaine d'années dans le secteur du transport international d'antiquités et d'oeuvres d'art, j'ai pris la décision en 2019 de commencer une nouvelle carrière dans un secteur auprès duquel j'ai toujours été attiré, l'informatique. Ma carrière en logistique au sein d'un domaine très spécifique m'a permis d'exceller au coeur d'un marché compétitif et  comment bien organiser mon travail au quotidien.</p>
+            <%= link_to "Voulez-vous en savoir plus?", "#", id: "popup-prkLink" %>
+          </div>
+        </div>
+    </div>
+
+    <div class="container-bios-card" data-aos="fade-up" data-aos-delay="500" >
+        <div class="description">
+          <div class="description-img"> <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1580905528/portfolio/man_computer_xrzvtp.jpg", :quality=>55) %></div>
+          <div class="details">
+            <h2>Maintenant</h2>
+            <p>Au cours des mois suivants, j'ai été diplomé de l'école de code du <%= link_to "Wagon", "https://www.lewagon.com/", style: 'color:  #808080' %>. Je suis compétent avec Ruby On Rails, Javascript ES6, HTML, CSS, Bootstrap, SQL, git, GitHub et Heroku. J'ai vraiment apprécié comment j'ai pu apprendre autant de choses en si peu de temps. Egalement, avoir l'opportunité d'étudier tous les jours en pair-programming avec un camarade différent m'a permis de m'instruire plus efficacement et plus rapidement (outre d'avoir eu l'occasion de me faire de très bon amis). </p>
+            <%= link_to(projects_path) do%>
+              <p style="color: #808080">J'ai depuis travaillé sur de multiples projets incluant le site internet de Ship Antiques.</p>
+            <% end %>
+          </div>
+        </div>
+    </div>
+
+    <div class="container-bios-card" data-aos="fade-up" data-aos-delay="500">
+        <div class="description">
+          <div class="description-img"> <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1580905528/portfolio/web_dev_gi7rim.jpg", :quality=>55)%></div>
+          <div class="details">
+  	        <h2>En Savoir plus</h2>
+            <p style="margin: 0 0 4px 0;">J'ai un bon rapport avec des clients et des fournisseurs dans un environnement international exigeant. Je suis assidu pour apprendre et m'améliorer avec mes collègues. Par ailleurs, j'adore voyager et decrouvrir de nouveaux pays et cultures. Lorsque je ne suis pas à l'étranger, je suis probablement en train de faire du jardinage, j'adore ca, s'occuper des plantes nécessite de la patience, une de mes qualités les plus fortes. </p>
+  	        <%= link_to("https://github.com/prkince", target: "_blank") do%>
+             <p style="margin: 0 0 0 0; color: #808080">Vous pouvez me trouver sur Github pour suivre mes activités de développement.</p>
+  	        <% end %>
+  	       	<%= link_to("https://github.com/prkince/resume_prk/raw/master/resume_prk.pdf", target: "_blank") do%>
+  		      	<p style="margin: 0 0 0 0; color: #808080">Vous pouvez télécharger mon CV ici.</p>
+  	        <% end %>
+
+          </div>
+        </div>
+    </div>
+
+  </div>
+
+  <!-- modal popup-prk content begin -->
+
+  <div id="popup-prkBox" class="popup-prk">
+    <div class="popup-prk-content">
+        <div class="popup-prk-head">
+            <span class="close">x</span>
+            <h2> Réalisation Personnelle</h2>
+        </div>
+        <div class="popup-prk-main">
+            <p> <strong> Contexte:</strong> Il y a quelques années, j'ai noté des problèmes récurrents avec certains de nos partenaires. Nous étions confrontés à des personnes inefficaces et peu fiables, il y avait des irrégularités dans le service offert, nous perdions des parts de marchés et des clients. 
+            </p>
+            <p> C'était avec nos partenaires américains, un de nos marchés clés, l'idée était d'établir un nouveau partenariat, créer une relation de travail puissante avec nos fournisseurs et améliorer nos processus de communication.</p>
+            </p>
+            <p><strong>Solution:</strong> Afin d'accomplir cela, je me suis focaliser sur les principaux marchés localement (New York et Los Angeles), et j'ai pris contact avec nos partenaires de longue date et démarcher de nouveaux. Après validation du budget et confirmation des prises de rendez-vous, il était temps pour moi de partir la-bas. Avoir l'occasion d'etre sur place pour quelques jours était incroyablement enrichissant, en faisant cela j'ai pu sécuriser un marché en perte de vitesse et je suis revenu en France avec de nouveaux clients et fournisseurs.
+            </p>
+            <p> <strong> Accomplissement:</strong> Afin de pouvoir construire des relations perennes et de confiance avec ses partenaires, nous devons accroitre notre réseau, être curieux et ne jamais avoir peur d'aller plus loin.
+            </p> 
+        </div>
+    </div>
+
+  <!-- modal popup-prk content end -->
+
+  </div>
+
+</div>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
