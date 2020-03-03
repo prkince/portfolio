@@ -3,9 +3,10 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
   get "bio", to: "pages#bio", as: :bio
   get "biographie", to: "pages#biographie"
-  get "accueil", to: "pages#accueil"
+  get "homepage", to: "pages#homepage", as: :home
   get "projects", to: "pages#projects", as: :projects
   get "projets", to: "pages#projets"
   get  "contact", to: "contacts#new", as: :contact
+
   post "contacts", to: "contacts#create"
 end

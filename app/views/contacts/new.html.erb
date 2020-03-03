@@ -2,16 +2,16 @@
   <div class="contacts-container" align="center" data-aos="zoom-in" data-aos-delay="800">
 
     <%= simple_form_for @contact do |f| %>
-      <%= f.label :contact, label: "Contact Me"  %>
-      <%= f.input :name, :required => true, label: "Name:"  %>
+      <%= f.label :contact, label: "Contactez Moi"  %>
+      <%= f.input :name, :required => true, label: "Nom:"  %>
       <%= f.input :email, :required => true, label: "Email:" %>
-      <%= f.input :subject, :required => true, label: "Subject of the message:" %>
-      <%= f.input :content, :as => :text, :required => true, label: "Content of the message:" %>
+      <%= f.input :subject, :required => true, label: "Sujet du message:" %>
+      <%= f.input :content, :as => :text, :required => true, label: "Contenu du message:" %>
       <div class= "hidden">
         <%= f.input :nickname, :hint => 'Leave this field blank!' %>
       </div>
       <div>
-        <%= f.button :submit, 'Send', :class=> "btn btn-outline-secondary" %>
+        <%= f.button :submit, 'Envoi', :class=> "btn btn-outline-secondary" %>
       </div>
     <% end %>
   </div>
@@ -19,6 +19,10 @@
     <a href="https://github.com/prkince" target="_blank"><i class="fab fa-github"></i></a>
     <a href="https://www.linkedin.com/in/pierrick-delage" target="_blank"><i class="fab fa-linkedin"></i></a>
     <a href="https://github.com/prkince/resume_prk/blob/master/resume_prk.pdf" target="_blank"><i class="far fa-file"></i></a>
+    <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#112;&#105;&#101;&#114;&#114;&#105;&#99;&#107;&#64;&#100;&#101;&#108;&#97;&#103;&#101;&#46;&#100;&#101;&#118;"><i class="far fa-paper-plane"></i></a>
+    <%= link_to(home_path) do %>
+      <i class="fas fa-flag-usa" style="color: #ff6f6f"></i>
+    <% end %>
   </div>
 
 </div>
