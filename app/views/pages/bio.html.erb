@@ -17,7 +17,7 @@
           <div class="description-img"> <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1580905528/portfolio/man_computer_xrzvtp.jpg", :quality=>55) %></div>
           <div class="details">
             <h2>Now</h2>
-            <p>During the past months, I have graduated Le Wagon coding school. I am proficient in Ruby on Rails, JavaScript ES6, HTML, CSS, Bootstrap, SQL, git, GitHub and Heroku. I truly appreciated how I have learned so much things in a short time. Also, working everyday with a different pairing buddy made me study more efficiently and quickly (besides I made some very good friends as well). </p>
+            <p>During the past months, I have graduated <%= link_to "Le Wagon", "https://www.lewagon.com/", style: 'color:  #808080' %> coding school. I am proficient in Ruby on Rails, JavaScript ES6, HTML, CSS, Bootstrap, SQL, git, GitHub and Heroku. I truly appreciated how I have learned so much things in a short time. Also, working everyday with a different pairing buddy made me study more efficiently and quickly (besides I made some very good friends as well). </p>
             <%= link_to(projects_path) do%>
               <p style="color: #808080">I have since worked on multiple projects including Ship Antiques website.</p>
             <% end %>

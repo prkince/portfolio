@@ -3,12 +3,19 @@ require("@rails/activestorage").start()
 require("channels")
 
 import "bootstrap";
-import "../components/modal";
-import "../components/home_animation";
+import { modalBio } from "../components/modal";
+import { homeAnimation } from "../components/home_animation";
+
+if(document.getElementById("popup-prkLink")){
+ 	modalBio()
+}
+
+if(document.querySelector(".page-home")){
+ 	homeAnimation()
+}
 
 AOS.init({
   duration: 800,
   easing: 'slide',
   once: true
  });
-
