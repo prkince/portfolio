@@ -5,6 +5,11 @@ require("channels")
 import "bootstrap";
 import { modalBio } from "../components/modal";
 import { homeAnimation } from "../components/home_animation";
+import { arrowDisappearOnScroll } from "../components/arrow_disappear_on_scroll";
+
+if(document.querySelector(".card-arrow")){
+ 	arrowDisappearOnScroll()
+}
 
 if(document.getElementById("popup-prkLink")){
  	modalBio()
