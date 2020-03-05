@@ -6,7 +6,6 @@ const arrowDisappearOnScroll = () => {
 	         $('.card-arrow').hide();
 	     }
 	});
-
 }
 
 export { arrowDisappearOnScroll }
