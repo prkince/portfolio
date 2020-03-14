@@ -1,11 +1,11 @@
 .container-prk {
     .page-contact {
-      min-height: 100vh;
+      height: 100vh;
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
       background-position-y: inherit;
-      background-image: url('https://res.cloudinary.com/dovu27lye/image/upload/v1580889158/portfolio/pierrick_background_picture_desktop_vetlsn.jpg'); 
+      background-image: url('https://res.cloudinary.com/dovu27lye/image/upload/v1584211049/portfolio/IMG_9144_apbsu5.jpg'); 
     }
   @media (max-width: 1024px) {
     .page-contact {
@@ -17,7 +17,7 @@
 }
 
 .contacts-links {
-  visibility: hidden
+  display: none;
 }
 
 @media (max-width: 768px) {
@@ -28,7 +28,7 @@
     position:fixed;
     bottom: 1rem;
     width: 100%;
-      justify-content: center;
+    justify-content: center;
   }
   .contacts-links a {
     color: rgba(255,255,255, 0.88);
