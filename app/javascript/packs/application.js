@@ -6,7 +6,6 @@ import "bootstrap";
 import { modalBio } from "../components/modal";
 import { homeAnimation } from "../components/home_animation";
 import { arrowDisappearOnScroll } from "../components/arrow_disappear_on_scroll";
-import { toggleFlag } from "../components/toggle_flag"
 
 if(document.querySelector(".card-arrow")) {
  	arrowDisappearOnScroll()
@@ -25,7 +24,3 @@ AOS.init({
 	easing: 'slide',
 	once: true
 });
-
-if(document.getElementById("flag-color-toggle")) {
-	toggleFlag();
-}

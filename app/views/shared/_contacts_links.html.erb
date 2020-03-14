@@ -1,15 +1,15 @@
 <div class="contacts-links">
-	<a href="https://github.com/prkince/resume_prk/blob/master/resume_prk.pdf" target="_blank"><img src="https://res.cloudinary.com/dovu27lye/image/upload/v1583853815/portfolio/cv_cgapyh.png"/></a>
+	<a href="https://github.com/prkince/resume_prk/blob/master/resume_prk.pdf" target="_blank"><img src="https://res.cloudinary.com/dovu27lye/image/upload/v1583853815/portfolio/cv_cgapyh.png" id="cv-img" /></a>
 	<a href="https://github.com/prkince" target="_blank"><i class="fab fa-github"></i></a>
 	<a href="https://www.linkedin.com/in/pierrick-delage" target="_blank"><i class="fab fa-linkedin"></i></a>
 	<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#112;&#105;&#101;&#114;&#114;&#105;&#99;&#107;&#64;&#100;&#101;&#108;&#97;&#103;&#101;&#46;&#100;&#101;&#118;"><i class="far fa-paper-plane"></i></a>
 	<% if current_page?(root_path) || current_page?(projets_path) || current_page?(biographie_path) %>
 		<%= link_to(home_path) do %>
-			<i class="fas fa-flag-usa" style="color: #ff6f6f"></i>
+			<img src="https://res.cloudinary.com/dovu27lye/image/upload/v1584177549/portfolio/us_flag_igzw5i.png" id="flag-img"/>
 		<% end %>
 	<% else %>
 		<%= link_to root_path do %>
-			<i class="far fa-flag" style="color: #ADD8E6"></i>
+			<img src="https://res.cloudinary.com/dovu27lye/image/upload/v1584177548/portfolio/france_flag_niwuxa.png" id="flag-img"/>
 		<% end %>    
 	<% end %>
 </div>
