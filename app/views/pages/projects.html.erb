@@ -23,7 +23,27 @@
         </div>
       <% end %>
     </div>
-    
+
+    <div class="container-projects-card" data-aos="fade-down" data-aos-delay="500">
+      <%= link_to("https://planbidon.herokuapp.com/", target: "_blank" , class: "project-link") do %>
+        <div class="description">
+          <div class="description-img"> <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1584628837/portfolio/plan_bidon_home_qczxci.png", :quality=>55) %></div>
+          <div class="details">
+            <h2>PLANBIDON 🇫🇷</h2>
+            <p>Tested 🔬, traced 🗺️ & engaged ✊ bike trip itineraries around Paris and (sometimes) further away 🏔️. Creation of admin and customer accounts, using Strava API, JS library Leafleet and OpenStreetMap. Technology: Ruby on Rails & Javascript.</p>
+          </div>
+        </div>
+      <% end %>
+    </div>
+
+    <%= link_to("") do %>
+      <div class="card-arrow">
+        <div class="arrow bounce">
+          <p class="fa fa-arrow-down fa-2x"></p>
+        </div>
+      </div>
+    <% end %>
+
     <div class="container-projects-card" data-aos="fade-down" data-aos-delay="500" >
       <%= link_to("http://www.equalpath.best/", target: "_blank" , class: "project-link") do %>
         <div class="description">
@@ -36,13 +56,6 @@
       <% end %>
     </div>
     
-    <%= link_to("") do %>
-      <div class="card-arrow">
-        <div class="arrow bounce">
-          <p class="fa fa-arrow-down fa-2x"></p>
-        </div>
-      </div>
-    <% end %>
     
     <div class="container-projects-card" data-aos="fade-down">
       <%= link_to("https://airbnb-palm.herokuapp.com/", target: "_blank" , class: "project-link") do %>
