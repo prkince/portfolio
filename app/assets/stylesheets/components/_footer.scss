@@ -16,6 +16,7 @@
     text-align: center;
     color: rgba(255,255,255, 0.88);
     opacity: 0.80;
+    cursor: default;
     a {
       color: rgba(255,255,255, 0.88);
       font-weight: 700;
@@ -40,6 +41,7 @@
     width: 34px;
     height: 31px;
     margin-right: -5px;
+    cursor: grab;
   }
   #flag-img {
     margin-bottom: 5px;
