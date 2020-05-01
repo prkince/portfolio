@@ -9,36 +9,46 @@
         h1 {
             cursor: default;
         }
+        #home-name {
+            .ml3 {
+                font-weight: 900;
+                font-size: 3.5em;
+                color: white;
+                text-align: center;
+                padding-top: 25%;
+                padding-left: 57%;
+                margin-block-start: 0em!important;
+            }
+
+            .ml4 {
+                font-weight: 900;
+                font-size: 3.5em;
+                color: white;
+                text-align: center;
+                padding-left: 57%;
+                margin-block-start: 0em!important;
+            }            
+        }
+
     }
 	@media (max-width: 1024px) {
         .page-home {
             background-position: center;
     		background-image: url('https://res.cloudinary.com/dovu27lye/image/upload/v1580889157/portfolio/pierrick_background_picture_mobile_zskrrg.jpg');
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        #home-name {
+            max-width: 85%;
+            .ml3 {
+            font-size: 3em;
+                padding: 0;
+            }
+            .ml4 {
+            font-size: 3em;
+                padding: 0
+            }
+        }  
         }
 	}
-}
-
-.ml3 {
-    font-weight: 900;
-    font-size: 3.5em;
-    color: white;
-    text-align: center;
-    padding-top: 25%;
-    padding-left: 57%;
-    margin-block-start: 0em!important;
-    @media (max-width: 1024px) {
-	    padding: 100% 0% 0% 0%;
-    }
-}
-
-.ml4 {
-    font-weight: 900;
-    font-size: 3.5em;
-    color: white;
-    text-align: center;
-    padding-left: 57%;
-    margin-block-start: 0em!important;
-    @media (max-width: 1024px) {
-	    padding: 0% 0% 0% 0%;
-    }
 }
