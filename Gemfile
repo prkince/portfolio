@@ -16,7 +16,7 @@ gem 'uglifier'
 gem 'webpacker'
 gem 'mail_form'
 gem 'cloudinary', '~> 1.12.0'
-
+gem 'rails-i18n' # https://lokalise.com/blog/rails-i18n/
 
 group :development do
   gem 'web-console', '>= 3.3.0'

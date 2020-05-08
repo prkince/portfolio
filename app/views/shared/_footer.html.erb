@@ -1,12 +1,12 @@
 <div class="footer">
   <div class="footer-links">
 
-    <% if current_page?(root_path) || current_page?(projets_path) || current_page?(biographie_path) %>
-      <%= link_to(home_path) do %>
+    <% if current_page?(locale: :fr) %>
+      <%= link_to(root_path(locale: :en)) do %>
         <img src="https://res.cloudinary.com/dovu27lye/image/upload/v1584177549/portfolio/us_flag_igzw5i.png" id="flag-img"/>
       <% end %>
     <% else %>
-      <%= link_to(root_path) do %>
+      <%= link_to(root_path(locale: :fr)) do %>
         <img src="https://res.cloudinary.com/dovu27lye/image/upload/v1584177548/portfolio/france_flag_niwuxa.png" id="flag-img"/>
       <% end %>    
     <% end %>

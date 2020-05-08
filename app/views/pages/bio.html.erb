@@ -4,9 +4,9 @@
         <div class="description">
           <div class="description-img"> <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1580905528/portfolio/plane_mhbkz0.jpg", :quality=>55) %></div>
           <div class="details">
-            <h2>Before</h2>
-            <p>After working in the international transport of artwork and antiques for over 10 years, I have decided in 2019 to follow a path I have always been attracted to, computer science. My career in logistics in a really specific field has taught me how to excel in a competitive market and how to efficiently organize my work. </p>
-            <%= link_to "Would you like to know more?", "#", id: "popup-prkLink" %>
+            <h2> <%= t '.before_title' %></h2>
+            <p> <%= t '.before_text' %></p>
+            <%= link_to t('.before_link'), "#", id: "popup-prkLink" %>
           </div>
         </div>
     </div>
@@ -15,10 +15,16 @@
         <div class="description">
           <div class="description-img"> <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1580905528/portfolio/man_computer_xrzvtp.jpg", :quality=>55) %></div>
           <div class="details">
-            <h2>Now</h2>
-            <p>Few months ago, I graduated from <%= link_to "Le Wagon", "https://www.lewagon.com/", style: 'color:  #808080' %> coding school. I am proficient in Ruby on Rails, JavaScript ES6, HTML, CSS, Bootstrap, SQL, git, GitHub and Heroku. I truly appreciated learning so many things in such little time. Working with a different pairing buddy everyday also made me study more effectively and quickly - while making good friends in the process!</p>
+            <h2><%= t '.now_title' %></h2>
+            <p>
+              <%= t '.now_text' %>
+              <%= link_to 'Le Wagon', 'https://www.lewagon.com/', style: 'color:  #808080' %>
+              <%= t '.now_text_2' %>
+            </p>
             <%= link_to(projects_path) do%>
-              <p style="color: #808080; font-size: 15px;">I have since worked on multiple projects including Ship Antiques website.</p>
+              <p style="color: #808080; font-size: 15px;">
+                <%= t '.now_link' %>
+              </p>
             <% end %>
           </div>
         </div>
@@ -28,13 +34,18 @@
         <div class="description">
           <div class="description-img"> <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1580905528/portfolio/web_dev_gi7rim.jpg", :quality=>55)%></div>
           <div class="details">
-  	        <h2>More</h2>
-            <p style="margin: 0 0 4px 0;">I am a confident communicator, I have a good rapport with clients and suppliers in a very demanding international environment. I am keen to learn and improve from the people I work with. I also love to travel and discover new countries and cultures. When I am not abroad, you may find me gardening, I love looking after plants, an activity which requires patience, one of my strongest qualities.</p>
+  	        <h2><%= t ('.more_title') %></h2>
+            <p style="margin: 0 0 4px 0;">
+              <%= t ('.more_text') %>
+            </p>
   	        <%= link_to("https://github.com/prkince", target: "_blank") do%>
-  	         <p style="margin: 0 0 0 0; color: #808080; font-size: 15px;">You can find me on Github to follow coding activity.</p>
+  	         <p style="margin: 0 0 0 0; color: #808080; font-size: 15px;"><%= t ('.more_link') %> 
+             </p>
   	        <% end %>
   	       	<%= link_to("https://github.com/prkince/resume_prk/raw/master/resume_prk.pdf", target: "_blank") do%>
-  		      	<p style="margin: 0 0 0 0; color: #808080; font-size: 15px;">You can download my resume here.</p>
+  		      	<p style="margin: 0 0 0 0; color: #808080; font-size: 15px;">
+                <%= t ('.more_link_2') %>   
+              </p>
   	        <% end %>
 
           </div>
@@ -49,22 +60,13 @@
     <div class="popup-prk-content">
         <div class="popup-prk-head">
             <span class="close">x</span>
-            <h2> Personal Achievement</h2>
+            <h2> <%= t '.perso_title'  %></h2>
         </div>
         <div class="popup-prk-main">
-            <p> <strong> Context:</strong> A few years back, I noticed incessant issues with some of our foreign partners. We were facing inefficient and unreliable work, irregularities in the services offered, we were losing market shares and clients.
-            </p>
-            <p> Most of them were based in the USA, by then we needed to establish new partnerships, to set up a powerful working supplier relation and improve our process of communication.
-            </p>
-            <p> <strong> Solution:</strong> To achieve that, I focused on our main markets locally (New York and Los Angeles areas), and carefully contacted long time partners as well as new ones. After validating the budget and setting up all meetings, it was time for me to travel. Being there for a few days was incredibly rewarding: I was then able to secure a market which was going down and came back with new clients and suppliers.
-            </p> 
-            <p> <strong> Attainment:</strong> I now know for a fact that in order to build strong and trustworthy relationships, we need to extend our network, be curious and never be afraid of going further.</p>
+          <%= t '.perso_text_html'  %>
         </div>
     </div>
-
+  </div>
   <!-- modal popup-prk content end -->
 
-  </div>
-
 </div>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

@@ -1,0 +1,55 @@
+fr:
+  pages:
+    home: "Developpeur Full-Stack"
+    bio:
+      before_title: "Un début de carrière dans la logistique"
+      before_text: "Après une dizaine d'années dans le secteur du transport international d'antiquités et d'œuvres d'art, j'ai pris la décision en 2019 de commencer une nouvelle carrière en informatique, un secteur qui m’a toujours attiré. Ma carrière dans le domaine de la logistique et de l’art m'a permis d'exceller au cœur d'un marché compétitif et d’apprendre à bien gérer mon travail au quotidien."
+      before_link: "Voulez-vous en savoir plus?"
+      now_title: "Une reconversion dans la programmation"
+      now_text: "Durant l’année 2019, j'ai été diplômé de l'école de code"
+      now_text_2: "J'ai vraiment apprécié la formation et beaucoup appris en peu de temps. De plus, avoir l'opportunité d'étudier tous les jours la programmation en binôme avec un camarade différent m'a permis de m'instruire plus efficacement et plus rapidement (et aussi d’avoir de nouveaux amis)."
+      now_link: "J'ai depuis travaillé sur de multiples projets, dont le site internet de Ship Antiques."
+      more_title: "Une personnalité"
+      more_text: "J'ai un bon rapport avec des clients et des fournisseurs exigeants dans un environnement international. Je suis toujours partant pour apprendre et m'améliorer avec mes collègues. Par ailleurs, j'adore voyager et découvrir de nouveaux pays et cultures. Lorsque je ne suis pas à l'étranger, je suis probablement en train de faire du jardinage, j'adore cela, s'occuper des plantes nécessite de la patience, une de mes grandes qualités."
+      more_link: "Vous pouvez me trouver sur Github pour suivre mes activités de développement."
+      more_link_2: "Vous pouvez télécharger mon CV ici."
+      perso_title: "Réalisation Personnelle"
+      perso_text_html: "
+        <p> <strong> Contexte:</strong>  Il y a quelques années, j'ai noté des problèmes récurrents avec certains de nos partenaires. Nous étions confrontés à des personnes inefficaces et peu fiables, il y avait des irrégularités dans le service offert, et nous perdions des parts de marchés et au final des clients.
+        </p>
+        <p> C'est alors qu’avec nos partenaires américains, un de nos marchés clés, l'idée est venue d'établir un nouveau partenariat, pour créer une meilleure relation de travail et améliorer nos processus de communication.
+        </p>
+        <p><strong>Solution:</strong> Afin d'accomplir cela, je me suis focalisé sur les principaux marchés (New York et Los Angeles), et j'ai pris contact avec nos partenaires de longue date, et j’en ai démarché de nouveaux. Après validation du budget et confirmation des prises de rendez-vous, il était temps pour moi de partir là-bas. Avoir l'occasion d'être sur place pour quelques jours était incroyablement enrichissant, en faisant cela j'ai pu sécuriser un marché en perte de vitesse et je suis revenu en France avec de nouveaux clients et fournisseurs.
+        </p>
+        <p> <strong> Accomplissement:</strong> Pour construire des relations pérennes et de confiance avec ses partenaires, il est nécessaire d'accroitre son réseau, être curieux et ne pas avoir peur d'aller plus loin.
+        </p>"
+
+    projects:
+      sa_title: "Ship Antiques"
+      sa_text: "Nouveau design et développement Front-End du site de la société. Grâce à ma solide expérience en logistique, j'ai pu mettre en avant les points essentiels et j’ai rapidement saisi la finalité du projet. Dans un premier temps j'ai utilisé un modèle pour montrer mes idées plus concrètement et par la suite j'ai créé l'application de A à Z en utilisant Ruby On Rails."
+      bobato_title: "BOBATO"
+      bobato_text: "Maquettes artisanales de bateaux de l’île Maurice. Passez commande en ligne et recevez le bateau directement chez vous. Création de tous les éléments du CRUD, création des comptes Administrateur et Utilisateurs, paiement en ligne possible à l'aide de l'outil Stripe. Technologie: Ruby On Rails."
+      planbidon_title: "PLANBIDON 🇫🇷"
+      planbidon_text: "Itinéraires vélo testés 🔬 tracés 🗺️ et engagés ✊ Ile-de-France et (parfois) au-delà 🏔️. Création de tous les éléments du CRUD, création de comptes Administrateur et Utilisateurs, utilisation de l'API Strava, la Librairie JS leafleet et de OpenStreetMap. Technologie: Ruby on Rails & Javascript."
+      equalpath_title: "Equal path"
+      equalpath_text: "Une plateforme te permettant de trouver le job de tes rêves. Design, implémentation et mise en production d'un clone de AirBnB et un prototype Rails. Projet final du Wagon, confectionné en 2 semaines avec 4 personnes. La structure utilise les outils classiques, avec du Javascript et du CSS. Technologie: Ruby On Rails."
+      palm_title: "Palm"
+      palm_text: "Le site de voyage Palm vous permets de louer des îles autour du monde. Projet du Wagon. Création de notre premier MVC. Technologie: Ruby On Rails."
+      delage_title: "Delage.dev (my portfolio)"
+      delage_text: "Design et mise en ligne de ce site. Utilisation de différentes Gems Rails: mail_form, cloudinary et SCSS. Site responsive grâce aux CSS media-queries. Technologie: Ruby On Rails."
+
+  shared:
+    _navbar:
+      home: 'Accueil'
+      bio: 'Biographie'
+      projects: 'Projets'
+      contact: 'Contact'
+
+  contacts:
+      new:
+        label_form: "Contactez-moi"
+        nom_form: "Nom:"
+        email_form: "Email:"
+        subject_form: "Sujet du Message:"
+        inside_form: "Contenu du Message:"
+        submit: "Envoi"

@@ -30,4 +30,55 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  pages:
+    home: "Full Stack Developer"
+    bio:
+      before_title: "Before"
+      before_text: "After working in the international transport of artwork and antiques for over 10 years, I have decided in 2019 to follow a path I have always been attracted to, computer science. My career in logistics in a really specific field has taught me how to excel in a competitive market and how to efficiently organize my work."
+      before_link: "Would you like to know more?"
+      now_title: "Now"
+      now_text: "Few months ago, I graduated from"
+      now_text_2: "coding school. I am proficient in Ruby on Rails, JavaScript ES6, HTML, CSS, Bootstrap, SQL, git, GitHub and Heroku. I truly appreciated learning so many things in such little time. Working with a different pairing buddy everyday also made me study more effectively and quickly - while making good friends in the process!"
+      now_link: "I have since worked on multiple projects including Ship Antiques website."
+      more_title: "More"
+      more_text: "I am a confident communicator, I have a good rapport with clients and suppliers in a very demanding international environment. I am keen to learn and improve from the people I work with. I also love to travel and discover new countries and cultures. When I am not abroad, you may find me gardening, I love looking after plants, an activity which requires patience, one of my strongest qualities."
+      more_link: "You can find me on Github to follow coding activity."
+      more_link_2: "You can download my resume here."
+      perso_title: "Personal Achievement"
+      perso_text_html: "
+        <p> <strong> Context:</strong> A few years back, I noticed incessant issues with some of our foreign partners. We were facing inefficient and unreliable work, irregularities in the services offered, we were losing market shares and clients.
+        </p>
+        <p> Most of them were based in the USA, by then we needed to establish new partnerships, to set up a powerful working supplier relation and improve our process of communication.
+        </p>
+        <p> <strong> Solution:</strong> To achieve that, I focused on our main markets locally (New York and Los Angeles areas), and carefully contacted long time partners as well as new ones. After validating the budget and setting up all meetings, it was time for me to travel. Being there for a few days was incredibly rewarding: I was then able to secure a market which was going down and came back with new clients and suppliers.
+        </p> 
+        <p> <strong> Attainment:</strong> I now know for a fact that in order to build strong and trustworthy relationships, we need to extend our network, be curious and never be afraid of going further.</p>"
+    projects:
+      sa_title: "Ship Antiques"
+      sa_text: "New design and front end development of the website of the company. Due to my strong experience in logistics, I understood the business in and out and therefore what to make. First I used a template to show my ideas, before making the app from scratch using Ruby on Rails."
+      bobato_title: "BOBATO"
+      bobato_text: "Beautifully crafted ship models from the island of Mauritius. Order online and have it shipped directly to you. Creation of all the CRUD elements, admin and customer accounts, allowing online payment using Stripe tool. Technology: Ruby on Rails."
+      planbidon_title: "PLANBIDON 🇫🇷"
+      planbidon_text: "Tested 🔬, traced 🗺️ & engaged ✊ bike trip itineraries around Paris and (sometimes) further away 🏔️. Creation of admin and customer accounts, adding all the CRUD element, use of Strava API, JS library Leafleet and OpenStreetMap. Technology: Ruby on Rails & Javascript."
+      equalpath_title: "Equal path"
+      equalpath_text: "A platform helping you to find your dream job. Designed, implemented and shipped to production an AirBnB-like clone and a Rails prototype. Final project for Le Wagon, made in 2 weeks within 4 people. The framework uses the classic tools, with some Javascript and CSS. Technology: Ruby on Rails."
+      palm_title: "Palm"
+      palm_text: "Palm-travel website allowing you to book islands all over the world. Le Wagon school project. Creation of our first MVC. Technology: Ruby on Rails."
+      delage_title: "Delage.dev (my portfolio)"
+      delage_text: "Design and implementation of this website. Gems: mail_form, cloudinary and SCSS. Responsiveness using CSS media-queries. Technology: Ruby on Rails."
+
+  shared:
+    _navbar:
+      home: 'Home'
+      bio: 'Bio'
+      projects: 'Projects'
+      contact: 'Contact'
+
+  contacts:
+    new:
+      label_form: "Contact me"
+      nom_form: "Name:"
+      email_form: "Email:"
+      subject_form: "Subject:"
+      inside_form: "Message:"
+      submit: "Submit"

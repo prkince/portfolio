@@ -5,8 +5,10 @@
         <div class="description">
           <div class="description-img"> <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1580894285/portfolio/ship_antiques_accueil_e8mydf.png", :quality=>55) %></div>
           <div class="details">
-            <h2>Ship Antiques</h2>
-            <p>New design and front end development of the website of the company. Due to my strong experience in logistics, I understood the business in and out and therefore what to make. First I used a template to show my ideas, before making the app from scratch using Ruby on Rails.</p>
+            <h2><%= t '.sa_title' %></h2>
+            <p>
+              <%= t '.sa_text' %>
+            </p>
           </div>
         </div>
       <% end %>
@@ -17,8 +19,10 @@
         <div class="description">
           <div class="description-img"> <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1582884694/portfolio/bobato_home.png", :quality=>55) %></div>
           <div class="details">
-            <h2>BOBATO</h2>
-            <p>Beautifully crafted ship models from the island of Mauritius. Order online and have it shipped directly to you. Creation of all the CRUD elements, admin and customer accounts, allowing online payment using Stripe tool. Technology: Ruby on Rails, use of React (still in development).</p>
+            <h2><%= t '.bobato_title'  %></h2>
+            <p>
+              <%= t '.bobato_text'  %>
+            </p>
           </div>
         </div>
       <% end %>
@@ -29,8 +33,10 @@
         <div class="description">
           <div class="description-img"> <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1584628837/portfolio/plan_bidon_home_qczxci.png", :quality=>55) %></div>
           <div class="details">
-            <h2>PLANBIDON 🇫🇷</h2>
-            <p>Tested 🔬, traced 🗺️ & engaged ✊ bike trip itineraries around Paris and (sometimes) further away 🏔️. Creation of admin and customer accounts, adding all the CRUD element, use of Strava API, JS library Leafleet and OpenStreetMap. Technology: Ruby on Rails & Javascript.</p>
+            <h2><%= t 'pages.projects.planbidon_title' %></h2>
+            <p>
+              <%= t '.planbidon_text' %>
+            </p>
           </div>
         </div>
       <% end %>
@@ -49,8 +55,10 @@
         <div class="description">
           <div class="description-img"> <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1581333751/portfolio/equalpath_accueil_hr9al6.png", :quality=>55) %></div>
           <div class="details">
-            <h2>Equal path</h2>
-            <p>A platform helping you to find your dream job. Designed, implemented and shipped to production an AirBnB-like clone and a Rails prototype. Final project for Le Wagon, made in 2 weeks within 4 people. The framework uses the classic tools, with some Javascript and CSS. Technology: Ruby on Rails.</p>
+            <h2><%= t '.equalpath_title'  %></h2>
+            <p>
+              <%= t '.bobato_text' %>
+            </p>
           </div>
         </div>
       <% end %>
@@ -62,8 +70,10 @@
         <div class="description">
           <div class="description-img"> <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1580894285/portfolio/palm_accueil_dnqhkt.png", :quality=>55) %></div>
           <div class="details">
-            <h2>Palm</h2>
-            <p>Palm-travel website allowing you to book islands all over the world. Le Wagon school project. Creation of our first MVC. Technology: Ruby on Rails.</p>
+            <h2><%= t '.palm_title' %></h2>
+            <p>
+              <%= t '.palm_text' %>
+            </p>
           </div>
         </div>
       <% end %>
@@ -74,8 +84,10 @@
         <div class="description">
           <div class="description-img"> <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1583252148/portfolio/portfolio.png", :quality=>55) %></div>
           <div class="details">
-            <h2>Delage.dev (my portfolio)</h2>
-            <p> Design and implementation of this website. Gems: mail_form, cloudinary and SCSS. Responsiveness using CSS media-queries. Technology: Ruby on Rails.</p>
+            <h2><%= t '.delage_title' %> </h2>
+            <p>
+              <%= t '.delage_text' %>
+            </p>
           </div>
         </div>
       <% end %>
@@ -83,5 +95,3 @@
   </div>
 
 </div>
-
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

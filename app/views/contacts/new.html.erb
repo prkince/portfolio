@@ -2,16 +2,16 @@
   <div class="contacts-container" align="center" data-aos="zoom-in" data-aos-delay="800">
 
     <%= simple_form_for @contact do |f| %>
-      <%= f.label :contact, label: "Contactez Moi"  %>
-      <%= f.input :name, :required => true, label: "Nom:"  %>
-      <%= f.input :email, :required => true, label: "Email:" %>
-      <%= f.input :subject, :required => true, label: "Sujet du message:" %>
-      <%= f.input :content, :as => :text, :required => true, label: "Contenu du message:" %>
+      <%= f.label :contact, label: t('.label_form')  %>
+      <%= f.input :name, :required => true, label: t('.nom_form')  %>
+      <%= f.input :email, :required => true, label: t('.email_form') %>
+      <%= f.input :subject, :required => true, label: t('.subject_form') %>
+      <%= f.input :content, :as => :text, :required => true, label: t('.inside_form') %>
       <div class= "hidden">
         <%= f.input :nickname, :hint => 'Leave this field blank!' %>
       </div>
       <div>
-        <%= f.button :submit, 'Envoi', :class=> "btn btn-outline-secondary" %>
+        <%= f.button :submit, t('.submit'), :class=> "btn btn-outline-secondary" %>
       </div>
     <% end %>
   </div>
