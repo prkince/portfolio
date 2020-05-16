@@ -5,7 +5,10 @@
         <div class="description">
           <div class="description-img"> <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1580894285/portfolio/ship_antiques_accueil_e8mydf.png", :quality=>55) %></div>
           <div class="details">
-            <h2><%= t '.sa_title' %></h2>
+            <div class="title-and-github">
+              <h2><%= t '.sa_title' %></h2>
+              <a href="https://github.com/prkince/shipantiques_v2" target="_blank" class="github-icon"><i class="fab fa-github"></i></a>
+            </div>
             <p>
               <%= t '.sa_text' %>
             </p>
@@ -19,7 +22,10 @@
         <div class="description">
           <div class="description-img"> <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1582884694/portfolio/bobato_home.png", :quality=>55) %></div>
           <div class="details">
-            <h2><%= t '.bobato_title'  %></h2>
+            <div class="title-and-github">
+              <h2><%= t '.bobato_title' %></h2>
+              <a href="https://github.com/prkince/bobato" target="_blank" class="github-icon"><i class="fab fa-github"></i></a>
+            </div>
             <p>
               <%= t '.bobato_text'  %>
             </p>
@@ -33,7 +39,10 @@
         <div class="description">
           <div class="description-img"> <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1584628837/portfolio/plan_bidon_home_qczxci.png", :quality=>55) %></div>
           <div class="details">
-            <h2><%= t 'pages.projects.planbidon_title' %></h2>
+            <div class="title-and-github">
+              <h2><%= t 'pages.projects.planbidon_title' %></h2>
+              <a href="https://github.com/prkince/planbidon" target="_blank" class="github-icon"><i class="fab fa-github"></i></a>
+            </div>
             <p>
               <%= t '.planbidon_text' %>
             </p>
@@ -55,9 +64,12 @@
         <div class="description">
           <div class="description-img"> <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1581333751/portfolio/equalpath_accueil_hr9al6.png", :quality=>55) %></div>
           <div class="details">
-            <h2><%= t '.equalpath_title'  %></h2>
+            <div class="title-and-github">
+              <h2><%= t '.equalpath_title' %></h2>
+              <a href="https://github.com/prkince/equal-path" target="_blank" class="github-icon"><i class="fab fa-github"></i></a>
+            </div>
             <p>
-              <%= t '.bobato_text' %>
+              <%= t '.equalpath_text' %>
             </p>
           </div>
         </div>
@@ -70,9 +82,29 @@
         <div class="description">
           <div class="description-img"> <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1580894285/portfolio/palm_accueil_dnqhkt.png", :quality=>55) %></div>
           <div class="details">
-            <h2><%= t '.palm_title' %></h2>
+            <div class="title-and-github">
+              <h2><%= t '.palm_title' %></h2>
+              <a href="https://github.com/prkince/palm" target="_blank" class="github-icon"><i class="fab fa-github"></i></a>
+            </div>
             <p>
               <%= t '.palm_text' %>
+            </p>
+          </div>
+        </div>
+      <% end %>
+    </div>
+
+    <div class="container-projects-card" data-aos="fade-down">
+      <%= link_to("https://vuejsgame.delage.dev/", class: "project-link") do %>
+        <div class="description">
+          <div class="description-img"> <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1589633386/portfolio/vuejsgame.png", :quality=>55) %></div>
+          <div class="details">
+            <div class="title-and-github">
+              <h2><%= t '.vuejsgame_title' %></h2>
+              <a href="https://github.com/prkince/Game-vuejs" target="_blank" class="github-icon"><i class="fab fa-github"></i></a>
+            </div>
+            <p>
+              <%= t '.vuejsgame_text' %>
             </p>
           </div>
         </div>
@@ -84,7 +116,10 @@
         <div class="description">
           <div class="description-img"> <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1583252148/portfolio/portfolio.png", :quality=>55) %></div>
           <div class="details">
-            <h2><%= t '.delage_title' %> </h2>
+            <div class="title-and-github">
+              <h2><%= t '.delage_title' %></h2>
+              <a href="https://github.com/prkince/portfolio" target="_blank" class="github-icon"><i class="fab fa-github"></i></a>
+            </div>          
             <p>
               <%= t '.delage_text' %>
             </p>
@@ -92,6 +127,7 @@
         </div>
       <% end %>
     </div>
+
   </div>
 
 </div>

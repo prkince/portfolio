@@ -38,7 +38,7 @@ en:
       before_link: "Would you like to know more?"
       now_title: "Now"
       now_text: "Few months ago, I graduated from"
-      now_text_2: "coding school. I am proficient in Ruby on Rails, JavaScript ES6, HTML, CSS, Bootstrap, SQL, git, GitHub and Heroku. I truly appreciated learning so many things in such little time. Working with a different pairing buddy everyday also made me study more effectively and quickly - while making good friends in the process!"
+      now_text_2: "coding school. I am proficient in Ruby on Rails, JavaScript ES6, VUE, HTML, CSS, Bootstrap, SQL, git, GitHub and Heroku. I truly appreciated learning so many things in such little time. Working with a different pairing buddy everyday also made me study more effectively and quickly - while making good friends in the process!"
       now_link: "I have since worked on multiple projects including Ship Antiques website."
       more_title: "More"
       more_text: "I am a confident communicator, I have a good rapport with clients and suppliers in a very demanding international environment. I am keen to learn and improve from the people I work with. I also love to travel and discover new countries and cultures. When I am not abroad, you may find me gardening, I love looking after plants, an activity which requires patience, one of my strongest qualities."
@@ -64,6 +64,8 @@ en:
       equalpath_text: "A platform helping you to find your dream job. Designed, implemented and shipped to production an AirBnB-like clone and a Rails prototype. Final project for Le Wagon, made in 2 weeks within 4 people. The framework uses the classic tools, with some Javascript and CSS. Technology: Ruby on Rails."
       palm_title: "Palm"
       palm_text: "Palm-travel website allowing you to book islands all over the world. Le Wagon school project. Creation of our first MVC. Technology: Ruby on Rails."
+      vuejsgame_title: "Vue Js Game"
+      vuejsgame_text: "Online game made using Vue.js and a minimalist design."
       delage_title: "Delage.dev (my portfolio)"
       delage_text: "Design and implementation of this website. Gems: mail_form, cloudinary and SCSS. Responsiveness using CSS media-queries. Technology: Ruby on Rails."
 

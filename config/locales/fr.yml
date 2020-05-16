@@ -35,7 +35,9 @@ fr:
       equalpath_text: "Une plateforme te permettant de trouver le job de tes rêves. Design, implémentation et mise en production d'un clone de AirBnB et un prototype Rails. Projet final du Wagon, confectionné en 2 semaines avec 4 personnes. La structure utilise les outils classiques, avec du Javascript et du CSS. Technologie: Ruby On Rails."
       palm_title: "Palm"
       palm_text: "Le site de voyage Palm vous permets de louer des îles autour du monde. Projet du Wagon. Création de notre premier MVC. Technologie: Ruby On Rails."
-      delage_title: "Delage.dev (my portfolio)"
+      vuejsgame_title: "Vue Js Game"
+      vuejsgame_text: "Jeu en ligne fait en Vue.js, design minimaliste."
+      delage_title: "Delage.dev (mon portfolio)"
       delage_text: "Design et mise en ligne de ce site. Utilisation de différentes Gems Rails: mail_form, cloudinary et SCSS. Site responsive grâce aux CSS media-queries. Technologie: Ruby On Rails."
 
   shared:
