@@ -7,7 +7,11 @@
           <div class="details">
             <div class="title-and-github">
               <h2><%= t '.sa_title' %></h2>
-              <a href="https://github.com/prkince/shipantiques_v2" target="_blank" class="github-icon"><i class="fab fa-github"></i></a>
+              <%= link_to("https://github.com/prkince/shipantiques_v2", target: "_blank" , class: "project-link github-icon") do %>                
+                <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/v1590605456/portfolio/ruby_jqaoa6.png", :quality=>55) %>
+                <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/v1590606143/portfolio/ror_logo_ggc7sr.png", :quality=>55) %>
+                <i class="fab fa-github"></i>
+              <% end %>          
             </div>
             <p>
               <%= t '.sa_text' %>
@@ -22,9 +26,13 @@
         <div class="description">
           <div class="description-img"> <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1582884694/portfolio/bobato_home.png", :quality=>55) %></div>
           <div class="details">
-            <div class="title-and-github">
+            <div class="title-and-github" >
               <h2><%= t '.bobato_title' %></h2>
-              <a href="https://github.com/prkince/bobato" target="_blank" class="github-icon"><i class="fab fa-github"></i></a>
+              <%= link_to("https://github.com/prkince/bobato", target: "_blank" , class: "project-link github-icon") do %>                
+                <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/v1590605456/portfolio/ruby_jqaoa6.png", :quality=>55) %>
+                <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/v1590606143/portfolio/ror_logo_ggc7sr.png", :quality=>55) %>
+                <i class="fab fa-github"></i>
+              <% end %>
             </div>
             <p>
               <%= t '.bobato_text'  %>
@@ -41,10 +49,36 @@
           <div class="details">
             <div class="title-and-github">
               <h2><%= t 'pages.projects.planbidon_title' %></h2>
-              <a href="https://github.com/prkince/planbidon" target="_blank" class="github-icon"><i class="fab fa-github"></i></a>
+                <%= link_to("https://github.com/prkince/planbidon", target: "_blank" , class: "project-link github-icon") do %>                
+                  <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/v1590606397/portfolio/js_logo_lb5tmh.png", :quality=>55) %>
+                  <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/v1590605456/portfolio/ruby_jqaoa6.png", :quality=>55) %>
+                  <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/v1590606143/portfolio/ror_logo_ggc7sr.png", :quality=>55) %>
+                  <i class="fab fa-github"></i>
+                <% end %>
             </div>
             <p>
               <%= t '.planbidon_text' %>
+            </p>
+          </div>
+        </div>
+      <% end %>
+    </div>
+
+    <div class="container-projects-card" data-aos="fade-down">
+      <%= link_to("https://vuejsgame.delage.dev/", class: "project-link") do %>
+        <div class="description">
+          <div class="description-img"> <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1589633386/portfolio/vuejsgame.png", :quality=>55) %></div>
+          <div class="details">
+            <div class="title-and-github">
+              <h2><%= t '.vuejsgame_title' %></h2>
+              <%= link_to("https://github.com/prkince/Game-vuejs", target: "_blank" , class: "project-link github-icon") do %>                
+                <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/v1590606633/portfolio/vue_logo_zhhl3w.png", :quality=>55) %>
+                <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/v1590606397/portfolio/js_logo_lb5tmh.png", :quality=>55) %>
+                <i class="fab fa-github"></i>
+              <% end %>
+            </div>
+            <p>
+              <%= t '.vuejsgame_text' %>
             </p>
           </div>
         </div>
@@ -66,7 +100,12 @@
           <div class="details">
             <div class="title-and-github">
               <h2><%= t '.equalpath_title' %></h2>
-              <a href="https://github.com/prkince/equal-path" target="_blank" class="github-icon"><i class="fab fa-github"></i></a>
+                <%= link_to("https://github.com/prkince/equal-path", target: "_blank" , class: "project-link github-icon") do %>                
+                  <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/v1590606397/portfolio/js_logo_lb5tmh.png", :quality=>55) %>
+                  <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/v1590605456/portfolio/ruby_jqaoa6.png", :quality=>55) %>
+                  <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/v1590606143/portfolio/ror_logo_ggc7sr.png", :quality=>55) %>
+                  <i class="fab fa-github"></i>
+                <% end %>
             </div>
             <p>
               <%= t '.equalpath_text' %>
@@ -84,27 +123,14 @@
           <div class="details">
             <div class="title-and-github">
               <h2><%= t '.palm_title' %></h2>
-              <a href="https://github.com/prkince/palm" target="_blank" class="github-icon"><i class="fab fa-github"></i></a>
+              <%= link_to("https://github.com/prkince/palm", target: "_blank" , class: "project-link github-icon") do %>                
+                <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/v1590605456/portfolio/ruby_jqaoa6.png", :quality=>55) %>
+                <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/v1590606143/portfolio/ror_logo_ggc7sr.png", :quality=>55) %>
+                <i class="fab fa-github"></i>
+              <% end %>
             </div>
             <p>
               <%= t '.palm_text' %>
-            </p>
-          </div>
-        </div>
-      <% end %>
-    </div>
-
-    <div class="container-projects-card" data-aos="fade-down">
-      <%= link_to("https://vuejsgame.delage.dev/", class: "project-link") do %>
-        <div class="description">
-          <div class="description-img"> <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1589633386/portfolio/vuejsgame.png", :quality=>55) %></div>
-          <div class="details">
-            <div class="title-and-github">
-              <h2><%= t '.vuejsgame_title' %></h2>
-              <a href="https://github.com/prkince/Game-vuejs" target="_blank" class="github-icon"><i class="fab fa-github"></i></a>
-            </div>
-            <p>
-              <%= t '.vuejsgame_text' %>
             </p>
           </div>
         </div>
@@ -118,7 +144,11 @@
           <div class="details">
             <div class="title-and-github">
               <h2><%= t '.delage_title' %></h2>
-              <a href="https://github.com/prkince/portfolio" target="_blank" class="github-icon"><i class="fab fa-github"></i></a>
+              <%= link_to("https://github.com/prkince/portfolio", target: "_blank" , class: "project-link github-icon") do %>                
+                <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/v1590605456/portfolio/ruby_jqaoa6.png", :quality=>55) %>
+                <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/v1590606143/portfolio/ror_logo_ggc7sr.png", :quality=>55) %>
+                <i class="fab fa-github"></i>
+              <% end %>
             </div>          
             <p>
               <%= t '.delage_text' %>
