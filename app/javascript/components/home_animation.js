@@ -10,7 +10,7 @@ const homeAnimation = () => {
       opacity: [0,1],
       easing: "easeInOutQuad",
       duration: 2250,
-      delay: (el, i) => 150 * (i+1)
+      delay: (Null, i) => 150 * (i+1)
     }).add({
       targets: '.ml3',
       opacity: 0,
@@ -29,7 +29,7 @@ const homeAnimation = () => {
       opacity: [0,1],
       easing: "easeOutExpo",
       duration: 2250,
-      delay: (el, i) => 150 * (i+1)
+      delay: (Null, i) => 150 * (i+1)
     }).add({
       targets: '.ml4',
       opacity: 0,

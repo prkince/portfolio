@@ -2,13 +2,13 @@
 const modalBio = () => {
 
 	// get the popup
-	var popupPrk = document.getElementById('popup-prkBox');
+	const popupPrk = document.getElementById('popup-prkBox');
 
 	// get the link that opens the popup
-	var popupPrkLink = document.getElementById("popup-prkLink");
+	const popupPrkLink = document.getElementById("popup-prkLink");
 
 	// get the close action element
-	var close = document.getElementsByClassName("close")[0];
+	const close = document.getElementsByClassName("close")[0];
 
 	// open the popup once the link is clicked
 	popupPrkLink.onclick = function() {

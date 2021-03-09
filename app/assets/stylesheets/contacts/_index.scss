@@ -1,18 +1,17 @@
 .container-prk {
-    .page-contact {
-      height: 100vh;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-      background-position-y: inherit;
-      background-image: url('https://res.cloudinary.com/dovu27lye/image/upload/v1584211049/portfolio/IMG_9144_apbsu5.jpg'); 
-    }
+  .page-contact {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: inherit;
+    background-image: url('https://res.cloudinary.com/dovu27lye/image/upload/v1584211049/portfolio/IMG_9144_apbsu5.jpg'); 
+  }
   @media (max-width: 1024px) {
     .page-contact {
       background-position: center;
       background-image: url('https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_2429/v1583267686/portfolio/prk_contact_iccc9q.jpg');
     }
-
   }
 }
 
@@ -81,7 +80,6 @@
     .contact_content {
       margin-bottom: 5px
     }
-
 	}
 
 	a {

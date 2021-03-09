@@ -1,16 +1,16 @@
 .container-prk {
-    .page-projects {
-      min-height: 100vh;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-      background-position-y: inherit;
-      background-image: url('https://res.cloudinary.com/dovu27lye/image/upload/v1580984200/portfolio/IMG_7708_sbsmia.jpg'); 
-    }
+  .page-projects {
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: inherit;
+    background-image: url('https://res.cloudinary.com/dovu27lye/image/upload/v1580984200/portfolio/IMG_7708_sbsmia.jpg');
+  }
   @media (max-width: 1024px) {
-        .page-projects {
-          background-position: center;
-        }
+    .page-projects {
+      background-position: center;
+    }
   }
 }
 
@@ -20,7 +20,7 @@
   padding-bottom: 8rem;
 }
 .project-link {
-    text-decoration: none!important;
+  text-decoration: none!important;
 }
 
 .container-projects-card {
@@ -82,8 +82,8 @@
     }
   }
   .description:hover {
-        opacity: 0.9;
-    }
+    opacity: 0.9;
+  }
 }
 
 
@@ -130,7 +130,6 @@
           }
         }
       }
-
-      }
     }
   }
+}

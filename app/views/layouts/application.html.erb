@@ -26,15 +26,6 @@
     <meta property="og:description" content="<%= meta_description %>" />
     <meta property="og:site_name" content="<%= meta_title %>" />
 
-    <!-- Twitter Card data -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="<%= DEFAULT_META["twitter_account"] %>">
-    <meta name="twitter:title" content="<%= meta_title %>">
-    <meta name="twitter:description" content="<%= meta_description %>">
-    <meta name="twitter:creator" content="<%= DEFAULT_META["twitter_account"] %>">
-    <meta name="twitter:image:src" content="<%= meta_image %>">
-
-
     <%= csrf_meta_tags %>
     <%= action_cable_meta_tag %>
     <%= stylesheet_link_tag 'application', media: 'all' %>
@@ -42,7 +33,7 @@
 
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-    <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
+
   </head>
   <body>
     <div class="container-prk background-image-prk">
