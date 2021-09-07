@@ -1,32 +1,23 @@
+export const modalBio = () => {
+  // get the popup
+  const popupPrk = document.getElementById("popup-prkBox");
 
-const modalBio = () => {
+  // get the link that opens the popup
+  const popupPrkLink = document.getElementById("popup-prkLink");
 
-	// get the popup
-	const popupPrk = document.getElementById('popup-prkBox');
+  // get the close action element
+  const closePopup = document.getElementById("closePopup");
 
-	// get the link that opens the popup
-	const popupPrkLink = document.getElementById("popup-prkLink");
+  // open the popup once the link is clicked
+  popupPrkLink.onclick = () => (popupPrk.style.display = "block");
 
-	// get the close action element
-	const close = document.getElementsByClassName("close")[0];
+  // close the popup once close element is clicked
+  closePopup.onclick = () => (popupPrk.style.display = "none");
 
-	// open the popup once the link is clicked
-	popupPrkLink.onclick = function() {
-	    popupPrk.style.display = "block";
-	}
-
-	// close the popup once close element is clicked
-	close.onclick = function() {
-	    popupPrk.style.display = "none";
-	}
-
-	// close the popup when user clicks outside of the box
-	window.onclick = function(event) {
-	    if (event.target == popupPrk) {
-	        popupPrk.style.display = "none";
-	    }
-	}
-
-}
-
-export { modalBio }
+  // close the popup when user clicks outside of the box
+  window.onclick = (event) => {
+    if (event.target == popupPrk) {
+      popupPrk.style.display = "none";
+    }
+  };
+};

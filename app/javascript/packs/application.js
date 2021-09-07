@@ -1,26 +1,31 @@
-require("@rails/ujs").start()
-require("@rails/activestorage").start()
-require("channels")
+require("@rails/ujs").start();
+require("@rails/activestorage").start();
+require("channels");
 
 import "bootstrap";
 import { modalBio } from "../components/modal";
 import { homeAnimation } from "../components/home_animation";
 import { arrowDisappearOnScroll } from "../components/arrow_disappear_on_scroll";
 
-if(document.querySelector(".card-arrow")) {
- 	arrowDisappearOnScroll()
+const cardArrow = $(".card-arrow");
+
+if (cardArrow.is(':visible')) {
+  if ($(window).innerWidth() >= 1800) {
+    cardArrow.hide();
+  }
+  arrowDisappearOnScroll();
 }
 
-if(document.getElementById("popup-prkLink")) {
- 	modalBio()
+else if ($("#popup-prkLink").is(':visible')) {
+  modalBio();
 }
 
-if(document.querySelector(".page-home")) {
- 	homeAnimation()
+else if ($(".page-home").is(':visible')) {
+  homeAnimation();
 }
 
 AOS.init({
-	duration: 800,
-	easing: 'slide',
-	once: true
+  duration: 800,
+  easing: "slide",
+  once: true,
 });

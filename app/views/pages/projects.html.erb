@@ -64,8 +64,14 @@
       <% end %>
     </div>
 
+    <div class="card-arrow">
+      <div class="arrow bounce">
+        <p class="fa fa-arrow-down fa-2x"></p>
+      </div>
+    </div>
+
     <div class="container-projects-card" data-aos="fade-down">
-      <%= link_to("https://vuejsgame.delage.dev/", class: "project-link") do %>
+      <%= link_to("https://vuejsgame.delage.dev/", target: "_blank", class: "project-link") do %>
         <div class="description">
           <div class="description-img"> <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1589633386/portfolio/vuejsgame.png", :quality=>55) %></div>
           <div class="details">
@@ -85,15 +91,7 @@
       <% end %>
     </div>
 
-    <%= link_to(".description", class: 'card-arrow-link') do %>
-      <div class="card-arrow">
-        <div class="arrow bounce">
-          <p class="fa fa-arrow-down fa-2x"></p>
-        </div>
-      </div>
-    <% end %>
-
-    <div class="container-projects-card" data-aos="fade-down" data-aos-delay="500" >
+    <div class="container-projects-card" data-aos="fade-down" >
       <%= link_to("http://equal-path.herokuapp.com/", target: "_blank" , class: "project-link") do %>
         <div class="description">
           <div class="description-img"> <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1581333751/portfolio/equalpath_accueil_hr9al6.png", :quality=>55) %></div>
