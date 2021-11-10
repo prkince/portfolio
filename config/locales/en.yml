@@ -3,11 +3,10 @@ en:
     home: "Full Stack Developer"
     bio:
       before_title: "Before"
-      before_text: "After working in the international transport of artwork and antiques for over 10 years, I have decided in 2019 to follow a path I have always been attracted to, computer science. My career in logistics in a really specific field has taught me how to excel in a competitive market and how to efficiently organize my work."
+      before_text_html: "After working in the international transport of artwork and antiques for over 10 years, I have decided to follow a path I have always been attracted to, computer science. Few years ago, I graduated from %{link} coding school. I am proficient in Ruby on Rails, JavaScript ES6, VUE, HTML, CSS, Bootstrap, SQL, git, GitHub and Heroku."
       before_link: "Would you like to know more?"
       now_title: "Now"
-      now_text: "Few months ago, I graduated from"
-      now_text_2: "coding school. I am proficient in Ruby on Rails, JavaScript ES6, VUE, HTML, CSS, Bootstrap, SQL, git, GitHub and Heroku. I truly appreciated learning so many things in such little time. Working with a different pairing buddy everyday also made me study more effectively and quickly - while making good friends in the process!"
+      now_text_html: "I am a front end developer in a Adtech Startup named %{link}. \"The tech that boosts your local business\". DeepReach is the new AI marketing platform disrupting digital local advertising and optimising local reach.<br />Front: VueJS, HTML 5, Sass, Jest, API Rest.<br />Back: Python, Docker, NodeJS, PostgreSQL. Github, Jira, Jenkins, AWS. TDD and Agile software development."
       now_link: "I have since worked on multiple projects including Ship Antiques website."
       more_title: "More"
       more_text: "I am a confident communicator, I have a good rapport with clients and suppliers in a very demanding international environment. I am keen to learn and improve from the people I work with. I also love to travel and discover new countries and cultures. When I am not abroad, you may find me gardening, I love looking after plants, an activity which requires patience, one of my strongest qualities."
@@ -15,12 +14,14 @@ en:
       more_link_2: "You can download my resume here."
       perso_title: "Personal Achievement"
       perso_text_html: "
+        <p> My career in logistics in a really specific field has taught me how to excel in a competitive market and how to efficiently organize my work.
+        </p>
         <p> <strong> Context:</strong> A few years back, I noticed incessant issues with some of our foreign partners. We were facing inefficient and unreliable work, irregularities in the services offered, we were losing market shares and clients.
         </p>
         <p> Most of them were based in the USA, by then we needed to establish new partnerships, to set up a powerful working supplier relation and improve our process of communication.
         </p>
         <p> <strong> Solution:</strong> To achieve that, I focused on our main markets locally (New York and Los Angeles areas), and carefully contacted long time partners as well as new ones. After validating the budget and setting up all meetings, it was time for me to travel. Being there for a few days was incredibly rewarding: I was then able to secure a market which was going down and came back with new clients and suppliers.
-        </p> 
+        </p>
         <p> <strong> Attainment:</strong> I now know for a fact that in order to build strong and trustworthy relationships, we need to extend our network, be curious and never be afraid of going further.</p>"
     projects:
       sa_title: "Ship Antiques"
@@ -40,10 +41,10 @@ en:
 
   shared:
     _navbar:
-      home: 'Home'
-      bio: 'Bio'
-      projects: 'Projects'
-      contact: 'Contact'
+      home: "Home"
+      bio: "Bio"
+      projects: "Projects"
+      contact: "Contact"
 
   contacts:
     new:

@@ -2,12 +2,11 @@ fr:
   pages:
     home: "Developpeur Full-Stack"
     bio:
-      before_title: "Un début de carrière dans la logistique"
-      before_text: "Après une dizaine d'années dans le secteur du transport international d'antiquités et d'œuvres d'art, j'ai pris la décision en 2019 de commencer une nouvelle carrière en informatique, un secteur qui m’a toujours attiré. Ma carrière dans le domaine de la logistique et de l’art m'a permis d'exceller au cœur d'un marché compétitif et d’apprendre à bien gérer mon travail au quotidien."
+      before_title: "Un passé"
+      before_text_html: "Après une dizaine d'années dans le secteur du transport international d'antiquités et d'œuvres d'art, j'ai pris la décision de commencer une nouvelle carrière en informatique, un secteur qui m’a toujours attiré. Il y a quelques années, j'ai été diplômé de l'école de code %{link}. Je suis compétent avec Ruby on Rails, JavaScript ES6, VUE, HTML, CSS, Bootstrap, SQL, git, GitHub et Heroku"
       before_link: "Voulez-vous en savoir plus?"
-      now_title: "Une reconversion dans la programmation"
-      now_text: "Durant l’année 2019, j'ai été diplômé de l'école de code"
-      now_text_2: "J'ai vraiment apprécié la formation et beaucoup appris en peu de temps. De plus, avoir l'opportunité d'étudier tous les jours la programmation en binôme avec un camarade différent m'a permis de m'instruire plus efficacement et plus rapidement (et aussi d’avoir de nouveaux amis)."
+      now_title: "un présent"
+      now_text_html: "Je suis développeur Front End au sein de l'Adtech %{link} à Paris. \"L'adtech de la communication locale\". Deepreach est la nouvelle plateforme qui disrupte le marketing digital local. <br />Technos:<br />Front: VueJS, HTML 5, Sass, Jest, API Rest.<br />Back: Python, Docker, NodeJS, PostgreSQL. Github, Jira, Jenkins, AWS. TDD et méthode Agile."
       now_link: "J'ai depuis travaillé sur de multiples projets, dont le site internet de Ship Antiques."
       more_title: "Une personnalité"
       more_text: "J'ai un bon rapport avec des clients et des fournisseurs exigeants dans un environnement international. Je suis toujours partant pour apprendre et m'améliorer avec mes collègues. Par ailleurs, j'adore voyager et découvrir de nouveaux pays et cultures. Lorsque je ne suis pas à l'étranger, je suis probablement en train de faire du jardinage, j'adore cela, s'occuper des plantes nécessite de la patience, une de mes grandes qualités."
@@ -15,6 +14,7 @@ fr:
       more_link_2: "Vous pouvez télécharger mon CV ici."
       perso_title: "Réalisation Personnelle"
       perso_text_html: "
+        <p> Ma carrière dans le domaine de la logistique et de l’art m'a permis d'exceller au cœur d'un marché compétitif et d’apprendre à bien gérer mon travail au quotidien</p>
         <p> <strong> Contexte:</strong>  Il y a quelques années, j'ai noté des problèmes récurrents avec certains de nos partenaires. Nous étions confrontés à des personnes inefficaces et peu fiables, il y avait des irrégularités dans le service offert, et nous perdions des parts de marchés et au final des clients.
         </p>
         <p> C'est alors qu’avec nos partenaires américains, un de nos marchés clés, l'idée est venue d'établir un nouveau partenariat, pour créer une meilleure relation de travail et améliorer nos processus de communication.

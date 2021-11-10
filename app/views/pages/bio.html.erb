@@ -5,7 +5,7 @@
           <div class="description-img"> <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1580905528/portfolio/plane_mhbkz0.jpg", :quality=>55) %></div>
           <div class="details">
             <h2> <%= t '.before_title' %></h2>
-            <p> <%= t '.before_text' %></p>
+            <p><%= t('.before_text_html', link: link_to(t("Le Wagon"), 'https://www.lewagon.com', target: "_blank", style: 'color:  #808080')) %></p>
             <%= link_to t('.before_link'), "#", id: "popup-prkLink" %>
           </div>
         </div>
@@ -16,11 +16,7 @@
           <div class="description-img"> <%= cl_image_tag("https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1580905528/portfolio/man_computer_xrzvtp.jpg", :quality=>55) %></div>
           <div class="details">
             <h2><%= t '.now_title' %></h2>
-            <p>
-              <%= t '.now_text' %>
-              <%= link_to 'Le Wagon', 'https://www.lewagon.com/', style: 'color:  #808080' %>
-              <%= t '.now_text_2' %>
-            </p>
+            <p><%= t('.now_text_html', link: link_to(t("Deepreach"), 'https://www.deepreach.com', target: "_blank", style: 'color:  #808080')) %></p>
             <%= link_to(projects_path) do%>
               <p style="color: #808080; font-size: 15px;">
                 <%= t '.now_link' %>
