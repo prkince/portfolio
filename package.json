@@ -15,7 +15,7 @@
     "node-sass": "^6.0.1",
     "npm-check-updates": "^12.0.2",
     "popper.js": "^1.16.1",
-    "tar": "^6.1.11",
+    "tar": "^4.4.18",
     "trim-newlines": "^4.0.2",
     "turbolinks": "^5.2.0"
   },
