@@ -6,7 +6,7 @@ en:
       before_text_html: "After working in the international transport of artwork and antiques for over 10 years, I have decided to follow a path I have always been attracted to, computer science. Few years ago, I graduated from %{link} coding school. I am proficient in Ruby on Rails, JavaScript ES6, VUE, HTML, CSS, Bootstrap, SQL, git, GitHub and Heroku."
       before_link: "Would you like to know more?"
       now_title: "Now"
-      now_text_html: "I am a front end developer in a Adtech Startup named %{link}. \"The tech that boosts your local business\". DeepReach is the new AI marketing platform disrupting digital local advertising and optimising local reach.<br />Front: VueJS, HTML 5, Sass, Jest, API Rest.<br />Back: Python, Docker, NodeJS, PostgreSQL. Github, Jira, Jenkins, AWS. TDD and Agile software development."
+      now_text_html: "I am a front end developer in a Adtech Startup %{link} in Paris. \"The tech that boosts your local business\". DeepReach is the new AI marketing platform disrupting digital local advertising and optimising local reach.<br />Front: VueJS, HTML 5, Sass, Jest, API Rest.<br />Back: Python, Docker, NodeJS, PostgreSQL. Github, Jira, Jenkins, AWS. TDD and Agile software development."
       now_link: "I have since worked on multiple projects including Ship Antiques website."
       more_title: "More"
       more_text: "I am a confident communicator, I have a good rapport with clients and suppliers in a very demanding international environment. I am keen to learn and improve from the people I work with. I also love to travel and discover new countries and cultures. When I am not abroad, you may find me gardening, I love looking after plants, an activity which requires patience, one of my strongest qualities."
