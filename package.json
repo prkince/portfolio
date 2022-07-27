@@ -11,7 +11,7 @@
     "bootstrap": "^4.6.0",
     "heroku-ssl-redirect": "0.1.1",
     "jquery": "^3.6.0",
-    "meow": "^10.1.1",
+    "meow": "^9.0.0",
     "node-sass": "^6.0.1",
     "npm-check-updates": "^12.0.2",
     "popper.js": "^1.16.1",
